@@ -9,17 +9,17 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-slate-700 to-slate-800 shadow-lg">
+    <nav className=" bg-gradient-to-r from-black to-slate-800 shadow-lg">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="text-white hover:bg-gradient-to-r hover:from-indigo-400 hover:to-cyan-400 hover:bg-clip-text hover:text-transparent font-bold text-lg">
-              Portfolio
+            <Link to="/" className="bg-gradient-to-r from-red-600 to-orange-300 bg-clip-text text-transparent hover:bg-gradient-to-r hover:from-indigo-400 hover:to-cyan-400 hover:bg-clip-text hover:text-transparent font-bold text-sm sm:text-lg">
+              MERN STACK DEVELOPER
             </Link>
           </div>
           <div className="hidden md:flex items-center">
-            <Link to="/about" className="text-gray-300 hover:bg-gradient-to-r hover:from-indigo-400 hover:to-cyan-400 hover:bg-clip-text hover:text-transparent px-3 py-2">
-              About
+            <Link to="/skills" className="text-gray-300 hover:bg-gradient-to-r hover:from-indigo-400 hover:to-cyan-400 hover:bg-clip-text hover:text-transparent px-3 py-2">
+              Skills
             </Link>
             <Link to="/projects" className="text-gray-300 hover:bg-gradient-to-r hover:from-indigo-400 hover:to-cyan-400 hover:bg-clip-text hover:text-transparent px-3 py-2">
               Projects
