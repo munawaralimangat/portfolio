@@ -18,7 +18,7 @@ const Introduction = (props) => {
             delay: 100,
           }}
             /></h1>
-          <p className="text-base md:text-lg bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent mb-8 hover:text-gray-200 cursor-default">I develop full stack applications, using <span className='font-bold bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent'>MERN STACK</span></p>
+          <p className="text-base md:text-lg bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent mb-8 hover:text-gray-200 cursor-default">I develop Full Stack Applications, using <span className='font-bold bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent'>MERN STACK</span></p>
           <p className="md:block hidden mt-4 text-pretty text-lg bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent hover:text-gray-200 cursor-default font-semibold">
           I specialize in crafting robust and scalable web applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack. With a focus on design and a love for coding,
            I deliver high-quality digital experiences that surpass expectations. My forte lies in creating user-friendly interfaces and responsive web applications for seamless
