@@ -10,7 +10,7 @@ const Skills = () => {
             <img
               src="https://via.placeholder.com/500"
               alt="Profile"
-              className="w-full h-auto rounded-lg"
+              className="w-full h-auto rounded-full"
             />
           </div>
           <div>

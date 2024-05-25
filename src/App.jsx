@@ -6,6 +6,7 @@ import Skills from './components/Skills/Skills'
 
 import './App.css'
 import NotFound from './components/NotFound/NotFound'
+import Projects from './components/Projects/Projects'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path='/' element={<RootLayout/>}>
         <Route index element={<HomePage/>}/>
         <Route path='/skills' element={<Skills/>}/>
+        <Route path='/projects' element={<Projects/>}/>
         <Route path='*' element={<NotFound/>}/>
 
       </Route>
