@@ -9,12 +9,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" bg-gradient-to-r from-black to-slate-800 shadow-lg">
+    <nav className=" bg-gradient-to-r from-black to-slate-950 shadow-lg">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="bg-gradient-to-r from-red-600 to-orange-300 bg-clip-text text-transparent hover:bg-gradient-to-r hover:from-indigo-400 hover:to-cyan-400 hover:bg-clip-text hover:text-transparent font-bold text-sm sm:text-lg">
-              MERN STACK DEVELOPER-
+            <Link to="/" className="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent hover:bg-gradient-to-r hover:from-orange-400 hover:to-red-400 hover:bg-clip-text hover:text-transparent font-bold text-sm sm:text-lg">
+              MERN STACK DEVELOPER
             </Link>
           </div>
           <div className="hidden md:flex items-center">
