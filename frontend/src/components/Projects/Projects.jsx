@@ -9,7 +9,7 @@ const Projects = () => {
         {
           title: "BicycleRepublic",
           description: "E-Commerce Website",
-          link: "#",
+          link: "http://15.206.174.102/",
           image: bicycleRepublic 
         },
       ];
@@ -19,7 +19,7 @@ const Projects = () => {
         <h2 className="text-4xl font-semibold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent mb-12 text-center">My Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="bg-slate-900 rounded-lg shadow-lg shadow-slate-800 hover:shadow-2xl transition-shadow duration-300">
+            <div key={index} className="bg-slate-900 rounded-lg shadow-lg hover:shadow-slate-800 hover:shadow-2xl transition-shadow duration-300">
               <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded-t-lg" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-100 mb-2">{project.title}</h3>

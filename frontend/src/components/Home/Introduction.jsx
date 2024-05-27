@@ -6,8 +6,8 @@ const Introduction = (props) => {
   const resume = useSelector(state => state.resume.value)
 
   return (
-    <section className="bg-gradient-to-r from-black-700 to-slate-800 sm:py-16">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="bg-gradient-to-r from-black-700 to-slate-800 sm:py-20">
+      <div className="max-w-7xl mx-auto px-20">
         <div className="text-left mt-20">
           <h1 className="sm:text-5xl text-3xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent mb-4 hover:text-gray-200 cursor-default"><Typewriter
            options={{
@@ -25,16 +25,14 @@ const Introduction = (props) => {
             cross-device experiences.
           </p>
           <div className="mt-20">
-            
-  <a
-    href={resume}
-    className="bg-gradient-to-r text-gray-50 from-black-800 to-slate-900 hover:text-gray-200 px-2 py-1 rounded-md text-xs md:px-6 md:py-3 md:text-lg font-light md:font-medium hover:bg-gradient-to-r hover:from-indigo-400 hover:to-cyan-400 hover:bg-clip-text hover:text-transparent transition duration-500"
-    download
-  >
-    Download Resume
-  </a>
-</div>
-
+            <a
+              href={resume}
+              className="bg-gradient-to-r text-gray-50 from-black-800 to-slate-900 hover:text-gray-200 px-2 py-1 rounded-md text-xs md:px-6 md:py-3 md:text-lg font-light md:font-medium hover:bg-gradient-to-r hover:from-indigo-400 hover:to-cyan-400 hover:bg-clip-text hover:text-transparent transition duration-500"
+              download
+            >
+              Download Resume
+            </a>
+          </div>
         </div>
       </div>
     </section>

@@ -14,7 +14,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="min-h-screen w-full bg-gradient-to-r from-black to-slate-950 py-20">
+    <section className="min-h-screen w-full bg-gradient-to-r from-black py-20">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl font-semibold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent hover:text-gray-200 mb-8 cursor-default">SKILLS</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">

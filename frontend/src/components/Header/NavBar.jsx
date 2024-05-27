@@ -18,8 +18,8 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="hidden md:flex items-center">
-            <Link to="/skills" className="text-gray-300 hover:bg-gradient-to-r hover:from-indigo-400 hover:to-cyan-400 hover:bg-clip-text hover:text-transparent px-3 py-2">
-              Skills
+            <Link to="/about" className="text-gray-300 hover:bg-gradient-to-r hover:from-indigo-400 hover:to-cyan-400 hover:bg-clip-text hover:text-transparent px-3 py-2">
+              About Me
             </Link>
             <Link to="/projects" className="text-gray-300 hover:bg-gradient-to-r hover:from-indigo-400 hover:to-cyan-400 hover:bg-clip-text hover:text-transparent px-3 py-2">
               Projects

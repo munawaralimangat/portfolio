@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
-    <section className="bg-gradient-to-r from-black mt-20 sm:py-20">
+    <section className="bg-gradient-to-r from-black to-slate-950 sm:py-20">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl font-semibold text-gray-50 mb-6">About Me</h2>
         <div className="flex flex-col md:flex-row items-center justify-between">
